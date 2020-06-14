@@ -166,7 +166,7 @@ public class Main extends javax.swing.JFrame {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webapp?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "ZAQ!2wsx");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webapp", "root", "");
 
             return con;
 

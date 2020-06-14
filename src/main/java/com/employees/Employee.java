@@ -11,9 +11,9 @@ public class Employee {
     private String firstname;
     private String lastname;
     private String email;
-    private float salary;
+    private float salary; //na razie string, bo numberfield coś nie działa potem trzeba zmienić na float/ int
     private String role;
-    private String startdate;
+    private String startdate; //trzeba ogarnąć konwersje zmiennej typu data z mysql do javy
 
     public Employee(int id, String firstname, String lastname, String email, float salary, String role, String startdate ) {
         super();
